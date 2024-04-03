@@ -5,14 +5,17 @@ import CustomList from './components/list';
 import Imagee from './components/function components/image';
 import Border from './components/function components/table';
 import CustomForm from './components/function components/form';
+import ButtonComponent from './components/class components/cbutton';
 function App() {
   return (
     <>
-    <CustomButton/>
+    {/* <CustomButton/>
     <CustomList/>
     <Imagee/>
     <Border/>
-    <CustomForm/>
+    <CustomForm/> */}
+    <ButtonComponent/>
+  
     </>
   );
 }
